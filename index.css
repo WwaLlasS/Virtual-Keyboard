@@ -18,85 +18,13 @@ body{
   display: flex;
 }
 
-.tecla-primera{
-  /*transform: scale(2);*/
+.tecla-clasica{
   border-radius: 4px;
   flex: 0.75;
   background-color: rgb(255, 255, 255);
   margin-right: 4px;
 }
-.tecla-1{
-  border-radius: 4px;
-  background-color: rgb(255, 255, 255);
-  margin-right: 4px;
-  flex: 0.75;
-}
-.tecla-2{
-  border-radius: 4px;
-  background-color: rgb(255, 255, 255);
-  margin-right: 4px;
-  flex: 0.75;
-}
-.tecla-3{
-  border-radius: 4px;
-  background-color: rgb(255, 255, 255);
-  margin-right: 4px;
-  flex: 0.75;
-}
-.tecla-4{
-  border-radius: 4px;
-  background-color: rgb(255, 255, 255);
-  margin-right: 4px;
-  flex: 0.75;
-}
-.tecla-5{
-  border-radius: 4px;
-  background-color: rgb(255, 255, 255);
-  margin-right: 4px;
-  flex: 0.75;
-}
-.tecla-6{
-  border-radius: 4px;
-  background-color: rgb(255, 255, 255);
-  margin-right: 4px;
-  flex: 0.75;
-}
-.tecla-7{
-  border-radius: 4px;
-  background-color: rgb(255, 255, 255);
-  margin-right: 4px;
-  flex: 0.75;
-}
-.tecla-8{
-  border-radius: 4px;
-  background-color: rgb(255, 255, 255);
-  margin-right: 4px;
-  flex: 0.75;
-}
-.tecla-9{
-  border-radius: 4px;
-  background-color: rgb(255, 255, 255);
-  margin-right: 4px;
-  flex: 0.75;
-}
-.tecla-0{
-  border-radius: 4px;
-  background-color: rgb(255, 255, 255);
-  margin-right: 4px;
-  flex: 0.75;
-}
-.tecla-guion{
-  border-radius: 4px;
-  background-color: rgb(255, 255, 255);
-  margin-right: 4px;
-  flex: 0.75;
-}
-.tecla-igual{
-  border-radius: 4px;
-  background-color: rgb(255, 255, 255);
-  margin-right: 4px;
-  flex: 0.75;
-}
+
 .tecla-backspace{
   border-radius: 4px;
   background-color: rgb(255, 255, 255);
@@ -113,78 +41,7 @@ body{
   flex: 1;
   background-color: rgb(255, 255, 255);
 }
-.tecla-q{
-  border-radius: 4px;
-  background-color: rgb(255, 255, 255);
-  margin-right: 4px;
-  flex: 0.75;
-}
-.tecla-w{
-  border-radius: 4px;
-  background-color: rgb(255, 255, 255);
-  margin-right: 4px;
-  flex: 0.75;
-}
-.tecla-e{
-  border-radius: 4px;
-  background-color: rgb(255, 255, 255);
-  margin-right: 4px;
-  flex: 0.75;
-}
-.tecla-r{
-  border-radius: 4px;
-  background-color: rgb(255, 255, 255);
-  margin-right: 4px;
-  flex: 0.75;
-}
-.tecla-t{
-  border-radius: 4px;
-  background-color: rgb(255, 255, 255);
-  margin-right: 4px;
-  flex: 0.75;
-}
-.tecla-y{
-  border-radius: 4px;
-  background-color: rgb(255, 255, 255);
-  margin-right: 4px;
-  flex: 0.75;
-}
-.tecla-u{
-  border-radius: 4px;
-  background-color: rgb(255, 255, 255);
-  margin-right: 4px;
-  flex: 0.75;
-}
-.tecla-i{
-  border-radius: 4px;
-  background-color: rgb(255, 255, 255);
-  margin-right: 4px;
-  flex: 0.75;
-}
-.tecla-o{
-  border-radius: 4px;
-  background-color: rgb(255, 255, 255);
-  margin-right: 4px;
-  flex: 0.75;
-}
-.tecla-p{
-  border-radius: 4px;
-  background-color: rgb(255, 255, 255);
-  margin-right: 4px;
-  flex: 0.75;
-}
-.corchete-abierto{
-  border-radius: 4px;
-  background-color: rgb(255, 255, 255);
-  margin-right: 4px;
-  flex: 0.75;
-}
-.corchete-cerrado{
-  border-radius: 4px;
-  background-color: rgb(255, 255, 255);
-  margin-right: 4px;
-  flex: 0.75;
-}
+
 .diagonal-inversa{
   border-radius: 4px;
   background-color: rgb(255, 255, 255);
@@ -200,72 +57,6 @@ body{
   margin-right: 4px;
   background-color: rgb(255, 255, 255);
   flex: 1.16;
-}
-.tecla-a{
-  border-radius: 4px;
-  background-color: rgb(255, 255, 255);
-  margin-right: 4px;
-  flex: 0.75;
-}
-.tecla-s{
-  border-radius: 4px;
-  background-color: rgb(255, 255, 255);
-  margin-right: 4px;
-  flex: 0.75;
-}
-.tecla-d{
-  border-radius: 4px;
-  background-color: rgb(255, 255, 255);
-  margin-right: 4px;
-  flex: 0.75;
-}
-.tecla-f{
-  border-radius: 4px;
-  background-color: rgb(255, 255, 255);
-  margin-right: 4px;
-  flex: 0.75;
-}
-.tecla-g{
-  border-radius: 4px;
-  background-color: rgb(255, 255, 255);
-  margin-right: 4px;
-  flex: 0.75;
-}
-.tecla-h{
-  border-radius: 4px;
-  background-color: rgb(255, 255, 255);
-  margin-right: 4px;
-  flex: 0.75;
-}
-.tecla-j{
-  border-radius: 4px;
-  background-color: rgb(255, 255, 255);
-  margin-right: 4px;
-  flex: 0.75;
-}
-.tecla-k{
-  border-radius: 4px;
-  background-color: rgb(255, 255, 255);
-  margin-right: 4px;
-  flex: 0.75;
-}
-.tecla-l{
-  border-radius: 4px;
-  background-color: rgb(255, 255, 255);
-  margin-right: 4px;
-  flex: 0.75;
-}
-.punto-y-coma{
-  border-radius: 4px;
-  background-color: rgb(255, 255, 255);
-  margin-right: 4px;
-  flex: 0.75;
-}
-.comilla-simple{
-  border-radius: 4px;
-  background-color: rgb(255, 255, 255);
-  margin-right: 4px;
-  flex: 0.75;
 }
 .enter{
   border-radius: 4px;
@@ -283,66 +74,6 @@ body{
   background-color: rgb(255, 255, 255);
   flex: 1.40;
 }
-.tecla-z{
-  border-radius: 4px;
-  background-color: rgb(255, 255, 255);
-  margin-right: 4px;
-  flex: 0.75;
-}
-.tecla-x{
-  border-radius: 4px;
-  background-color: rgb(255, 255, 255);
-  margin-right: 4px;
-  flex: 0.75;
-}
-.tecla-c{
-  border-radius: 4px;
-  background-color: rgb(255, 255, 255);
-  margin-right: 4px;
-  flex: 0.75;
-}
-.tecla-v{
-  border-radius: 4px;
-  background-color: rgb(255, 255, 255);
-  margin-right: 4px;
-  flex: 0.75;
-}
-.tecla-b{
-  border-radius: 4px;
-  background-color: rgb(255, 255, 255);
-  margin-right: 4px;
-  flex: 0.75;
-}
-.tecla-n{
-  border-radius: 4px;
-  background-color: rgb(255, 255, 255);
-  margin-right: 4px;
-  flex: 0.75;
-}
-.tecla-m{
-  border-radius: 4px;
-  background-color: rgb(255, 255, 255);
-  margin-right: 4px;
-  flex: 0.75;
-}
-.coma{
-  border-radius: 4px;
-  background-color: rgb(255, 255, 255);
-  margin-right: 4px;
-  flex: 0.75;
-}
-.punto{
-  border-radius: 4px;
-  background-color: rgb(255, 255, 255);
-  margin-right: 4px;
-  flex: 0.75;
-}
-.diagonal{
-  border-radius: 4px;
-  background-color: rgb(255, 255, 255);
-  margin-right: 4px;
-  flex: 0.75;
-}
 .shift-2{
   border-radius: 4px;
   background-color: rgb(255, 255, 255);
@@ -359,7 +90,7 @@ body{
   margin-right: 4px;
   flex: 0.80;
 }
-.tecla-alt{
+.teclas-alt{
   border-radius: 4px;
   background-color: rgb(255, 255, 255);
   margin-right: 4px;
@@ -373,11 +104,7 @@ body{
   margin-right: 4px;
   flex: 5;
 }
-.tecla-altgr{border-radius: 4px;
-  background-color: rgb(255, 255, 255);
-  margin-right: 4px;
-  flex: 0.80;
-}
+
 .tecla-control-2{
   border-radius: 4px;
   background-color: rgb(255, 255, 255);
