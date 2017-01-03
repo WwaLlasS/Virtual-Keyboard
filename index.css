@@ -140,6 +140,10 @@ p>span{
   margin-top: 8px;
   margin-bottom: 10px;
 }
+
+.letras-en-curso{
+  background-color: #4b9c4e;
+}
 /*----------------------------------------------------------------------*/
 
 /*Media Query*/
