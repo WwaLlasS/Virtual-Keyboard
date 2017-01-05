@@ -141,8 +141,16 @@ p>span{
   margin-bottom: 10px;
 }
 
-.letras-en-curso{
+/*.resultado{
   background-color: #4b9c4e;
+}*/
+
+.correcto{
+  display: none;
+}
+
+.incorrecto{
+  display: none;
 }
 /*----------------------------------------------------------------------*/
 

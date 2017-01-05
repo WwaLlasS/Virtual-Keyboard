@@ -6,19 +6,24 @@ document.addEventListener('keypress', (event) =>{
 
   if (a == txt[i])
     {
-    document.write("Es correcto");
+      console.log("Es correcto");
+      $(document).ready(function(){
+        $('.resultado .incorrecto').hide(0,function(){
+          $('.resultado .correcto').show(0);
+      });
+    });
     i++;
     }
   else
     {
-    document.write("Error");
+    console.log("Error");
+      $(document).ready(function(){
+        $('.resultado .correcto').hide(0, function(){
+          $('.resultado .incorrecto').show(0);
+        });
+      });
     }
 })
 var txt = "lo siento Jim, hice un pacto, ella muere, yo quedo libre";
 document.write(txt);
 document.write(" ");
-$(document).ready(function(){
-  $('.letras-en-curso').click(function(){
-    $(this).fadeOut();
-  });
-});
