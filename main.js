@@ -8,8 +8,8 @@ document.addEventListener('keypress', (event) =>{
     {
       console.log("Es correcto");
       $(document).ready(function(){
-        $('.resultado .incorrecto').hide(1,function(){
-          $('.resultado .correcto').show(1);
+        $('.resultado .incorrecto').hide(0,function(){
+          $('.resultado .correcto').show(0);
       });
     });
     i++;
@@ -18,8 +18,8 @@ document.addEventListener('keypress', (event) =>{
     {
     console.log("Error");
       $(document).ready(function(){
-        $('.resultado .correcto').hide(1, function(){
-          $('.resultado .incorrecto').show(1);
+        $('.resultado .correcto').hide(0, function(){
+          $('.resultado .incorrecto').show(0);
         });
       });
     }
