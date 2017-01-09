@@ -141,17 +141,10 @@ p>span{
   margin-bottom: 10px;
 }
 
-/*.resultado{
-  background-color: #4b9c4e;
-}*/
-
-.correcto{
-  display: none;
+.resultado{
+  height: 30px;
 }
 
-.incorrecto{
-  display: none;
-}
 /*----------------------------------------------------------------------*/
 
 /*Media Query*/
