@@ -117,6 +117,17 @@ body{
   background-color: rgb(255, 255, 255);
   flex: 0.80;
 }
+.letra-actual{
+  text-decoration: underline;
+  color:green;
+  font-weight: bold;
+}
+.error{
+  color:red;
+}
+#actual{
+  font-size: 4em;
+}
 
 div>p{
   text-align: center;
