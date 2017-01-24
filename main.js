@@ -7,7 +7,6 @@ function pinta_letra(){
 
   $('document').ready(function(){
     // /obtener y pintar letraActual
-    console.log($('#palabras p'));
     var cadena = $('#palabras p');
     console.log(cadena);
     var cadena = cadena.html().trim();
@@ -21,12 +20,12 @@ function pinta_letra(){
           errorClass = 'error'
         }
         nuevaCadena += '<span class="letra-actual '+errorClass+'">' + arreglo[c] + '</span>'
-
+        // <span class="letra-actual" >l</span>
+        // <span class="letra-actual error">l</span>
       } else {
         nuevaCadena += arreglo[c]
 
       }
-      // console.log(nuevaCadena);
     }
 
     $('#actual').html(nuevaCadena)
@@ -42,22 +41,15 @@ document.addEventListener('keypress', (event) =>{
     {
       console.log("Es correcto");
       status = 'true'
-      document.getElementById('resultado').innerHTML = 'Correcto';
-
     i++;
     }
   else
     {
       status = 'false'
       console.log("Error");
-      document.getElementById('resultado').innerHTML = 'Incorrecto';
-      document.getElementById('palabras').style.color = "#ff0036";
     }
     pinta_letra()
     console.log(arreglo);
-
-    console.log("cadena "+cadena);
-    console.log('indice '+cadena[i]);
 
 })
 var txt = "lo siento Jim, hice un pacto, ella muere, yo quedo libre";
