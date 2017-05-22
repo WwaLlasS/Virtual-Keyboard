@@ -1,9 +1,18 @@
 var i = 0;
 var status = 'true'
-// const fs = require('fs');
 
-var txt = "Hello world";
-  $('#palabras p').append(txt);
+//Counts fro hits and errors default in 0
+var hits = 0;
+var errors = 0;
+var record = 0;
+var acurate = 0;
+//String to the Keyboard
+var txt = "this is Hipatia Dev House";
+$('#palabras p').append(txt);
+
+//Counts Start in 0
+$('#hits').text(0)
+$('#errors').text(0);
 
 function pinta_letra(){
 
@@ -30,7 +39,7 @@ function pinta_letra(){
       }
     }
 
-    $('#actual').html(nuevaCadena)
+    $('#actual p').html(nuevaCadena)
   })
 }
 pinta_letra()
@@ -38,34 +47,39 @@ pinta_letra()
 document.addEventListener('keypress', (event) =>{
   var a = event.key;
   console.log(a);
-  var hits = 0;
-  var errors = 0;
-  var totalHits = 0;
-  var totalErrors = 0;
 
   if (a == txt[i])
     {
       console.log("Es correcto");
       status = 'true'
       i++
-      totalHits = hits ++ ;
-      console.log(totalHits);
+      hits++
+      record++;
+      $('#hits').text(hits - errors)
     }
   else
     {
       status = 'false'
       console.log("Error");
       errors++
-      console.log(errors);
+      $('#errors').text(errors)
+      $('#recors').text(record)
     }
     pinta_letra()
+    var acerts = hits - errors;
+    var percent = acerts * 100 / txt.length;
+    console.log(percent,'%');
+    if (percent <= 0) {
+      $('#acurate').html( 0 + '%');
+    }else{
+      $('#acurate').html(percent + '%');
+    }
 
 
-    // console.log(totalHits);
-    //
-    // console.log(totalErrors);
 })
-  var txtInput = $('#txtInput').val();
+
+
+$('.acurate p b').append(hits)
 
   // function inputVal(){
   //     $('#palabras p').empty();

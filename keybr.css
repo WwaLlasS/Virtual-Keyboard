@@ -4,6 +4,10 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+#hits,
+#errors{
+  color: #fef200;
+}
 body{
   background-color:  #313b3d;
 }
@@ -100,4 +104,11 @@ main{
 }
 .score p{
   color: #fff;
+}
+#actual p{
+  letter-spacing: 6px;
+}
+#palabras p{
+  font-size: 16px;
+  letter-spacing: 2px;
 }
