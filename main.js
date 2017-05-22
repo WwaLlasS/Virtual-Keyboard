@@ -1,14 +1,25 @@
 var i = 0;
 var status = 'true'
 
+//Counts fro hits and errors default in 0
+var hits = 0;
+var errors = 0;
+var record = 0;
+var acurate = 0;
+//String to the Keyboard
+var txt = "this is Hipatia Dev House";
+$('#palabras p').append(txt);
 
+//Counts Start in 0
+$('#hits').text(0)
+$('#errors').text(0);
 
 function pinta_letra(){
 
   $('document').ready(function(){
+
     // /obtener y pintar letraActual
     var cadena = $('#palabras p');
-    console.log(cadena);
     var cadena = cadena.html().trim();
     var arreglo = cadena.split('');
     var letraActual = arreglo[i]
@@ -28,7 +39,7 @@ function pinta_letra(){
       }
     }
 
-    $('#actual').html(nuevaCadena)
+    $('#actual p').html(nuevaCadena)
   })
 }
 pinta_letra()
@@ -41,15 +52,51 @@ document.addEventListener('keypress', (event) =>{
     {
       console.log("Es correcto");
       status = 'true'
-    i++;
+      i++
+      hits++
+      record++;
+      $('#hits').text(hits - errors)
     }
   else
     {
       status = 'false'
       console.log("Error");
+      errors++
+      $('#errors').text(errors)
+      $('#recors').text(record)
     }
     pinta_letra()
-    console.log(arreglo);
+    var acerts = hits - errors;
+    var percent = acerts * 100 / txt.length;
+    console.log(percent,'%');
+    if (percent <= 0) {
+      $('#acurate').html( 0 + '%');
+    }else{
+      $('#acurate').html(percent + '%');
+    }
+
 
 })
-var txt = "lo siento Jim, hice un pacto, ella muere, yo quedo libre";
+
+
+$('.acurate p b').append(hits)
+
+  // function inputVal(){
+  //     $('#palabras p').empty();
+  //     $('#actual').empty();
+  //     var txtInput = $('#txtInput').val();
+  //     $('#palabras p').append(txtInput);
+  //     txt = txtInput;
+  //     pinta_letra()
+  //     if (txtInput == '') {
+  //       txt = "Hipatia Dev House";
+  //       $('#palabras p').append(txt);
+  //     }
+  //     pinta_letra()
+  //   }
+
+
+// fs.readFile('./first_challenge.docx','utf-8', (err,data) => {
+//   if (err) throw err;
+//   console.log(data);
+// });

@@ -6,9 +6,9 @@ body{
   background-color: rgb(203, 203, 203);
   padding: 22px;
   /*margin: 0px 22%;*/
-  margin-left: 25%;
+  /*margin-left: 25%;*/
   border-radius: 8px;
-  max-width: 950px;
+  max-width: 100%;
   -webkit-user-select:none;
 }
 
@@ -130,9 +130,14 @@ body{
 #actual{
   font-size: 1.5em;
 }
-
+.txt{
+  color: #fff;
+}
 div>p{
   text-align: center;
+}
+#palabras p {
+  color: #fff;
 }
 p>span{
   color: rgb(235, 255, 0);
@@ -170,8 +175,8 @@ p>span{
 
 @media screen and (min-width: 800px) and (max-width: 830px) {
   .division-superior{
-    margin-left: 20%;
-    width: 430px;
+    /*margin-left: 20%;*/
+    width: 100%;
   }
   .primera-linea,.segunda-linea,.tercera-linea,.cuarta-linea,.quinta-linea{
     height: 28px;
@@ -181,20 +186,20 @@ p>span{
 
 @media screen and (min-width: 831px) and (max-width: 860px) {
   .division-superior{
-    margin-left: 20%;
-    width: 450px;
+    /*margin-left: 20%;*/
+    width: 100%;
   }
   .primera-linea,.segunda-linea,.tercera-linea,.cuarta-linea,.quinta-linea{
     height: 28px;
     font-size: 8.3px;
-    width: 450px;
+    width: 100%;
   }
 }
 
 @media screen and (min-width: 861px) and (max-width: 890px) {
   .division-superior{
-    margin-left: 20%;
-    width: 470px;
+    /*margin-left: 20%;*/
+    width: 100%;
   }
   .primera-linea,.segunda-linea,.tercera-linea,.cuarta-linea,.quinta-linea{
     height: 30px;
@@ -205,8 +210,8 @@ p>span{
 
 @media screen and (min-width: 891px) and (max-width: 920px) {
   .division-superior{
-    margin-left: 20%;
-    width: 500px;
+    /*margin-left: 20%;*/
+    width: 100%;
   }
   .primera-linea,.segunda-linea,.tercera-linea,.cuarta-linea,.quinta-linea{
     height: 32px;
@@ -217,8 +222,8 @@ p>span{
 
 @media screen and (min-width: 921px) and (max-width: 950px) {
   .division-superior{
-    margin-left: 17%;
-    width: 560px;
+    /*margin-left: 17%;*/
+    width: 100%;
   }
   .primera-linea,.segunda-linea,.tercera-linea,.cuarta-linea,.quinta-linea{
     height: 34px;
@@ -229,8 +234,8 @@ p>span{
 
 @media screen and (min-width: 951px) and (max-width: 980px) {
   .division-superior{
-    margin-left: 15%;
-    width: 600px;
+    /*margin-left: 15%;*/
+    width: 100%;
   }
   .primera-linea,.segunda-linea,.tercera-linea,.cuarta-linea,.quinta-linea{
     height: 38px;
@@ -241,8 +246,8 @@ p>span{
 
 @media screen and (min-width: 981px) and (max-width: 1030px) {
   .division-superior{
-    margin-left: 15.5%;
-    width: 650px;
+    /*margin-left: 15.5%;*/
+    width: 100%;
   }
   .primera-linea,.segunda-linea,.tercera-linea,.cuarta-linea,.quinta-linea{
     height: 40px;
@@ -253,8 +258,8 @@ p>span{
 
 @media screen and (min-width: 1031px) and (max-width: 1100px) {
   .division-superior{
-    width: 700px;
-    margin-left: 13.5%;
+    width: 100%;
+    /*margin-left: 13.5%;*/
   }
   .primera-linea,.segunda-linea,.tercera-linea,.cuarta-linea,.quinta-linea{
     height: 44px;
@@ -265,8 +270,8 @@ p>span{
 
 @media screen and (min-width: 1101px) and (max-width: 1150px) {
   .division-superior{
-    margin-left: 11%;
-    width: 800px;
+    /*margin-left: 11%;*/
+    width: 100%;
   }
   .primera-linea,.segunda-linea,.tercera-linea,.cuarta-linea,.quinta-linea{
     height: 50px;
@@ -277,8 +282,8 @@ p>span{
 
 @media screen and (min-width: 1151px) and (max-width: 1366px) {
   .division-superior{
-    margin-left: 10.5%;
-    width: 850px;
+    /*margin-left: 10.5%;*/
+    width: 100%;
   }
   .primera-linea,.segunda-linea,.tercera-linea,.cuarta-linea,.quinta-linea{
     height: 52px;
@@ -289,8 +294,8 @@ p>span{
 
 @media screen and (min-width: 1367px) {
   .division-superior{
-    margin-left: 22%;
-    width: 900px;
+    /*margin-left: 22%;*/
+    width: 100%;
   }
   .primera-linea,.segunda-linea,.tercera-linea,.cuarta-linea,.quinta-linea{
     height: 53px;
