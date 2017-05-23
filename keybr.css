@@ -5,8 +5,12 @@
   box-sizing: border-box;
 }
 #hits,
-#errors{
+#record,
+#acurate{
   color: #fef200;
+}
+#errors{
+  color: red;
 }
 body{
   background-color:  #313b3d;
@@ -62,9 +66,14 @@ body{
 }
 #palabras{
   margin-top: 20px;
+  display: none;
 }
 #actual {
   margin-bottom: 20px;
+  font: 16px;
+  height: 20vh;
+  margin-top: 20px;
+  margin-bottom: 0px;
 }
 .barra-espaciadora{
   display: flex;
@@ -106,9 +115,29 @@ main{
   color: #fff;
 }
 #actual p{
-  letter-spacing: 6px;
+  letter-spacing: 4px;
+  font-size: 16px;
 }
 #palabras p{
   font-size: 16px;
-  letter-spacing: 2px;
+  letter-spacing: 0px;
+}
+.keybr{
+  margin-top: 10px;
+}
+.helper-text{
+  font-size: 24px !important;
+  letter-spacing: none;
+  color: #fef200;
+}
+.input-file{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+.input-file input {
+  border: none;
+  color: #fff;
 }
